@@ -7,9 +7,11 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-//b211202036
+//B211202036
+//https://github.com/ozangulll/SVV-Homework
 //Ozan Gül
 //SWE202 SOFTWARE VERIFICATION AND VALIDATION
+//HOMEWORK-1
 class CalculatorTest {
 
     @BeforeEach
@@ -21,6 +23,7 @@ class CalculatorTest {
     }
     @ParameterizedTest
     @CsvSource({
+
             "10, 2, 5.0",
             "10, 4, 2.5",
             "12.5, 2.5, 5.0",
